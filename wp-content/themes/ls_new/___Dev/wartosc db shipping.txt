@@ -1,0 +1,49 @@
+a:4:{i:0;a:7:{s:2:"id";s:2:"17";s:4:"zone";s:1:"2";s:5:"basis";s:5:"price";s:3:"min";s:1:
+
+/* ie from */ this "0"
+
+;s:3:"max";s:3:
+
+/* ie up to this */ "500"
+
+;s:4:"cost";s:2:
+
+/* you pay that */ "50"
+
+;s:7:"enabled";s:1:"1";}i:1;a:7:{s:2:"id";s:2:"18";s:4:"zone";s:1:"2";s:5:"basis";s:5:"price";s:3:"min";s:3:
+
+/* ie over this */ "500"
+
+;s:3:"max";s:1:
+
+/* up to infinity */ "*"
+
+;s:4:"cost";s:1:
+
+/* you pay this */ "0"
+
+;s:7:"enabled";s:1:"1";}i:2;a:7:{s:2:"id";s:2:"19";s:4:"zone";s:1:"1";s:5:"basis";s:5:"price";s:3:"min";s:1:
+
+/* uk from this */ "0"
+
+;s:3:"max";s:10:
+
+/* uk up to this */ "265.675435"
+
+;s:4:"cost";s:9:
+
+/* you pay that */ "13.234354"
+
+;s:7:"enabled";s:1:"1";}i:3;a:7:{s:2:"id";s:2:"20";s:4:"zone";s:1:"1";s:5:"basis";s:5:"price";s:3:"min";s:10:
+
+/* uk over that */"265.675435"
+
+;s:3:"max";s:1:
+
+/* uk until infinity */"*"
+
+;s:4:"cost";s:1:
+
+/* you pay this */ "0"
+
+;s:7:"enabled";s:1:"1";}}

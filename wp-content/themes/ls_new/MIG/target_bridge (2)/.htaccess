@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /__woo/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /__woo/index.php [L]
+</IfModule>
+
+Redirect 301 /__woo/my-account/ http://css-tricks.com/snippets/htaccess/301-redirects/

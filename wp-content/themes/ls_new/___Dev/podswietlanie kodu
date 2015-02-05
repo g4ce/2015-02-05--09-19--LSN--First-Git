@@ -1,0 +1,70 @@
+[insert_php]
+$training_1_on = get_post_meta(the_ID(),'training_one_on',true);
+$date_1 = date("d-m-Y", strtotime(get_post_meta(the_ID(),'training_one_date',true)));
+$availability_1 = get_post_meta(the_ID(),'training_one_availability',true);
+$code_1 = get_post_meta(the_ID(),'training_one_paypal_button',true);
+
+$training_2_on = get_post_meta(the_ID(),'training_two_on',true);
+$date_2 = date("d-m-Y", strtotime(get_post_meta(the_ID(),'training_two_date',true)));
+$availability_2 = get_post_meta(the_ID(),'training_two_availability',true);
+$code_2 = get_post_meta(the_ID(),'training_two_paypal_button',true);
+
+$training_3_on = get_post_meta(the_ID(),'training_three_on',true);
+$date_3 = date("d-m-Y", strtotime(get_post_meta(the_ID(),'training_three_date',true)));
+$availability_3 = get_post_meta(the_ID(),'training_three_availability',true);
+$code_3 = get_post_meta(the_ID(),'training_three_paypal_button',true);
+
+[/insert_php]
+
+
+<div class="training_wrapper">
+
+	<div class="row training_row">
+		<div class="col-md-4">
+			<p><?php echo $date_1;
+		</div>
+			
+		<div class="col-md-4">
+			get_calendar_snippet($date_1);
+		</div>
+
+		<div class="col-md-4">
+			
+
+
+		</div>
+	</div>
+	<div class="row training_row">
+		<div class="col-md-4">
+			<p>echo $date_1;
+		</div>
+			
+		<div class="col-md-4">
+			get_calendar_snippet($date_1);
+		</div>
+
+		<div class="col-md-4">
+			
+
+
+		</div>
+	</div>
+	<div class="row training_row">
+		<div class="col-md-4">
+			<p>echo $date_1;
+		</div>
+			
+		<div class="col-md-4">
+			get_calendar_snippet($date_1);
+		</div>
+
+		<div class="col-md-4">
+			
+
+
+		</div>
+	</div>
+
+</div>
+
+
